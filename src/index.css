@@ -1,1 +1,11 @@
+/* 1. TOUT EN HAUT : Les polices externes */
+@import url('https://googleapis.com');
+
+/* 2. EN DEUXIÈME : Le moteur de Tailwind */
 @import "tailwindcss";
+
+/* 3. EN DERNIER : Votre configuration personnalisée */
+@theme {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-volkhov: 'Volkhov', serif;
+}
