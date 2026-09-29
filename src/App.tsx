@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services.tsx';
+import Destinations from './components/Destinations'; 
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
      <Navbar />
      <Hero />
      <Services />
+     <Destinations />
    </div>
   )
 }
